@@ -1,7 +1,6 @@
 {
-  "name": "video-processing-service",
+  "name": "comvid",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "ts-node src/index.ts",
@@ -18,8 +17,17 @@
   "devDependencies": {
     "@types/express": "^4.17.21",
     "@types/fluent-ffmpeg": "^2.1.24",
-    "@types/node": "^20.10.5",
+    "@types/node": "^20.10.6",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hikki78/ComVid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hikki78/ComVid/issues"
+  },
+  "homepage": "https://github.com/hikki78/ComVid#readme",
+  "description": ""
 }
